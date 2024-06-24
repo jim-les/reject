@@ -68,7 +68,7 @@ const LoginScreen = () => {
             const response = await axios.post(`${baseUrl}/login`, { accountIdInitials: accountId });
             setLoading(false);
             sessionStorage.setItem('ID', response.data.accountId + response.data.initials);
-            navigate('')
+            navigate('/')
             window.location.reload();
         } catch (error) {
             setLoading(false);
