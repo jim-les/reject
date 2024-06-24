@@ -1,2 +1,2 @@
 // base url export
-export const baseUrl = 'http://192.168.1.101:3000';
+export const baseUrl = 'https://reject-backend.onrender.com';
